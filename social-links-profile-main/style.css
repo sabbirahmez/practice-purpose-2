@@ -1,0 +1,78 @@
+:root {
+  /* ## Colors */
+
+  --Green: hsl(75, 94%, 57%);
+
+  --White: hsl(0, 0%, 100%);
+
+  --Grey700: hsl(0, 0%, 20%);
+  --Grey800: hsl(0, 0%, 12%);
+  --Grey900: hsl(0, 0%, 8%);
+
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400, 600, 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+
+  margin: 0;
+  padding: 0;
+
+  p {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+}
+body {
+  height: 94vh;
+  background-color: var(--Grey900);
+  color: var(--White);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 300px;
+  text-align: center;
+  background-color: var(--Grey800);
+  padding: 30px;
+  border-radius: 10px;
+}
+main img {
+  width: 100px;
+  border-radius: 50px;
+}
+main h2 {
+  font-weight: 400;
+}
+main h4 {
+  font-size: 14px;
+  color: var(--Green);
+  line-height: 0px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+main .social {
+    
+  margin: 10px 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: var(--Grey700);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social a {
+  text-decoration: none;
+  color: var(--White);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.attribution{
+    position: absolute;
+    bottom: 20px;
+   font-size: 14px;
+   text-align: center;
+}
