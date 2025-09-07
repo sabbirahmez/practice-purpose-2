@@ -25,7 +25,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [here](https://github.com/sabbirahmez/practice-purpose/tree/main/recipe-page-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://practice-purpose-2-recipe-page-main.vercel.app/)
 
 ## My process
 
